@@ -1,6 +1,7 @@
 /*
 a1,a2・・・anを左から右へ走査しながら隣り合う二つの数値を比較し、それらが小さい順になるように必要なら入れ替えを行う。
 アルゴリズムはこの入れ替えが起こらなくなるまで列の走査を繰り返す
+計算量はO(n^2)→あまり効率的でない
 */
 void bubblesprt(int n)
 {
@@ -18,6 +19,6 @@ void bubblesprt(int n)
                 sorted = 0;
             }
         }
-    } while(!sorted);
+    } while(!sorted);//!sorted は !(sorted != 0)なのでsorted == 0
 
 }
