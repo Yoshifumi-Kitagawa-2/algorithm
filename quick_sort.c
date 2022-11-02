@@ -75,3 +75,4 @@ void quicksort()
         }
     }
 }
+//push(), pop(), top()はスタックの基本操作
